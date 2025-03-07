@@ -1,7 +1,7 @@
 library(readxl)
 library(dplyr)
 
-setwd("/data5/bio/MolGenMicro/across_ncbi_data")
+setwd("/path/to/work/dir")
 
 if (!requireNamespace("openxlsx", quietly = TRUE)) {
   install.packages("openxlsx")
